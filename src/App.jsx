@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import UpdateItem from "./components/UpdateItem";
 
-const API_URI = `http://${import.meta.env.VITE_API_URI}/doors/1`; // Example with ID 1
+const API_URI = `http://${import.meta.env.VITE_API_URI}/doors/1`;
 
 function App() {
   const [item, setItem] = useState(null);
